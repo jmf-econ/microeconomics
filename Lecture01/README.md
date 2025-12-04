@@ -35,9 +35,9 @@
 ### Utility Functions
 - Mathematical representation of preferences: U(x₁, x₂, ..., xₙ)
 - Common utility functions and their assumptions:
-  - Cobb-Douglas: U(x₁, x₂) = x₁ᵃx₂ᵇ
-  - Perfect substitutes: U(x₁, x₂) = ax₁ + bx₂
-  - Perfect complements: U(x₁, x₂) = min{ax₁, bx₂}
+  - Cobb-Douglas: $U(x_1, x_2) = x_1^{\alpha}x_2^{\beta}$
+  - Perfect substitutes: $U(x_1, x_2) = \alpha x_1 + \beta x_2$
+  - Perfect complements: $U(x_1, x_2) = \min \{[x_1, x_2]\}$
 
 ### Indifference Curves
 - Set of bundles that provide the same level of utility
@@ -60,30 +60,26 @@
 ## 3. Multivariate Calculus for Economics
 
 ### Functions of Multiple Variables
-- 3D representation: z = f(x, y)
-- Level curves: Sets where f(x, y) = constant
+- 3D representation
+- Level curves
 
 ### Partial Derivatives
 - Derivative with respect to one variable, holding others constant
-- Notation: ∂f/∂x or fₓ
+- Notation: $\frac{\partial f}{\partial x}$ or $U_x$
 
 ### The Gradient
 - An operator that, when given a function, returns it's vector of partial derivatives
 - Vector of all partial derivatives: $\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}, \ldots \right)$
-
 - Points in direction of steepest ascent
-- Perpendicular to level curves/surfaces
+- Perpendicular to level curves
 
+**λ (lambda)**: Lagrange multiplier
+- It transforms the units in which the constraint is expressed in (e.g. usd), to the units in which the objective function is expressed in (i.g. utils)
+- Economic interpretation: Additional utility from one more dollar of income
 
 ### 📚 Resources
 - 📹 **Videos:**
-  - [Add YouTube link here]
-  - [Add YouTube link here]
-- 📄 **Readings:**
-  - [Add reading/article link here]
-  - [Add reading/article link here]
-- 🔗 **Additional Materials:**
-  - [Add supplementary link here]
+  - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient
 
 ---
 
@@ -99,58 +95,28 @@
 
 ### The Lagrangian Method
 **Setup:**
-- Objective function: f(x, y)
-- Constraint: g(x, y) = c
-- Lagrangian: ℒ(x, y, λ) = f(x, y) + λ[c - g(x, y)]
-
-**λ (lambda)**: Lagrange multiplier
-- Represents shadow price or marginal value of relaxing the constraint
-- Economic interpretation: Additional utility from one more dollar of income
+- Objective function: $f(x,y)$
+- Constraint: $g(x, y) = c$
+- Lagrangian: $\mathcal{L}(x, y, \lambda) = f(x, y) + \lambda[c - g(x, y)]$
 
 ### First-Order Conditions (FOCs)
-1. ∂ℒ/∂x = 0
-2. ∂ℒ/∂y = 0
-3. ∂ℒ/∂λ = 0 (recovers the constraint)
-
-### Solving the Consumer Problem
-**Problem:** max U(x₁, x₂) s.t. p₁x₁ + p₂x₂ = m
-
-**Lagrangian:** ℒ = U(x₁, x₂) + λ[m - p₁x₁ - p₂x₂]
-
-**FOCs:**
-- ∂ℒ/∂x₁ = MU₁ - λp₁ = 0
-- ∂ℒ/∂x₂ = MU₂ - λp₂ = 0
-- ∂ℒ/∂λ = m - p₁x₁ - p₂x₂ = 0
-
-**Result:** MU₁/p₁ = MU₂/p₂ = λ
-- Marginal utility per dollar spent must be equal across all goods
-- Equivalently: MRS = p₁/p₂
+- Opportunity cost = marginal rate of substitution
 
 ### 📚 Resources
 - 📹 **Videos:**
-  - [Add YouTube link here]
-  - [Add YouTube link here]
+  - https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/constrained-optimization-introduction
 - 📄 **Readings:**
-  - [Add reading/article link here]
-  - [Add reading/article link here]
-- 🔗 **Additional Materials:**
-  - [Add supplementary link here]
+  - Nechyba, T. J. (2011). **Chapter 6**. In Microeconomics: An intuitive approach with calculus. South-Western Cengage Learning.
 
 ---
 
 ## Key Takeaways
-- Economics uses rigorous assumptions to build tractable models
-- Preferences can be represented mathematically through utility functions
-- Multivariate calculus provides the tools for marginal analysis
-- The Lagrangian method solves constrained optimization problems
-- Optimal choice equates marginal rates of substitution with price ratios
-
----
-
-## For Next Lecture
-- Demand curves and comparative statics
-- Income and substitution effects
-- Consumer surplus and welfare analysis
+- Economics uses assumptions to build tractable models, for your sake, don't try always to understand.
+  With that in mind,
+  - Preferences can be represented mathematically through utility functions
+  - Multivariate calculus provides the tools for marginal analysis
+  - The Lagrangian method solves constrained optimization problems
+  - Optimal choice equates marginal rates of substitution with price ratios
 
 ---
 
