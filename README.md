@@ -1,5 +1,6 @@
-# Microeconomics Course
-   
+# Microeconomics | Fall 2025
+## Universidad del CEMA
+
    This is my repository for microeconomics class materials.
 
    ## Positive Vibes Only!!!
