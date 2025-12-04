@@ -1,4 +1,4 @@
-# Microeconomics | Fall 2025
+# Microeconomics | Fall 2026
 
    This is my repository for microeconomics class materials.
 
