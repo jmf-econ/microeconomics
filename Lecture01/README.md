@@ -1,3 +1,4 @@
+acá ver preferencias nada más
 # Lecture 1: Introduction to Microeconomics
 
 ## 1. Why this course is important?
