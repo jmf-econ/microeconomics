@@ -1,4 +1,4 @@
-acá ver preferencias nada más
+acá ver preferencias nada más. segunda clase tipos de preferencias si son hometeticas, cuasilineales, etc y qué representan. la tercera se ve optimización. 
 # Lecture 1: Introduction to Microeconomics
 
 ## 1. Why this course is important?
